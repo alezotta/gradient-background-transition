@@ -1,0 +1,62 @@
+body {
+  background: none;
+  font-size: 16px;
+  margin-left: 2rem;
+  font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  font-size: 3rem;
+}
+
+p {
+  padding-top: 400px;
+  padding-bottom: 400px;
+  font-size: 1.5rem;
+}
+
+.opacityShow{
+  opacity: 1;
+  transition: all 0.7s;
+}
+
+.opacityHide {
+  opacity: 0;
+  transition: all 0.7s;
+}
+
+.stop {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.stop1 {
+  background: linear-gradient(200deg, rgba(255, 255, 255, 0.85) 0%, rgba(205, 255, 255, 0.85) 100%);
+  z-index: -8;
+}
+.stop2 {
+  background: linear-gradient(200deg, rgba(205, 255, 255, 0.85) 30%, rgba(240, 194, 123, 0.85) 100%);
+  z-index: -7;
+}
+.stop3 {
+  background: linear-gradient(200deg, rgba(240, 194, 123, 0.85) 0%, rgba(148, 13, 255, 0.85) 100%);
+  z-index: -6;
+}
+.stop4 {
+  background: linear-gradient(200deg, rgba(74, 12, 232, 0.85) 0%, rgba(148, 13, 255, 0.85) 100%);
+  z-index: -5;
+}
+.stop5 {
+  background: linear-gradient(200deg, rgba(148, 13, 255, 0.85) 30%, rgba(240, 194, 123, 0.85) 100%);
+  z-index: -4;
+}
+.stop6 {
+  background: #ffffff;
+  z-index: -3;
+}
